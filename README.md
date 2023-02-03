@@ -6,4 +6,5 @@ The script then trains and fits two linear regression models, one for NB applica
 
 Finally, the predicted values for both NB and RW applications are displayed and added to a scatter plot along with the original data for visual representation.
 
-- Click the link below to see the demo of the app: https://cjfuentes-datascience-linear-regression-weekly-lr-report-yujt5p.streamlit.app/
+- Click the link below to see the demo of the app: 
+- https://cjfuentes-datascience-linear-regression-weekly-lr-report-yujt5p.streamlit.app/
