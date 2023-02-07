@@ -5,6 +5,12 @@ import plotly.express as px
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
+#setting the page index name and layout wide
+st.set_page_config(
+    page_title='Interactive Linear Model: Weekly Report',
+    layout='wide'
+)
+
 # prepare the front end
 st.title('Linear Regression Model: Weekly Report')
 #st.selectbox('')
