@@ -32,7 +32,7 @@ def predict_nb():
     x=df[['quotes']]
     y=df['nb_apps']
 
-    x_train, x_test, y_train, y_test=train_test_split(x, y)
+    x_train, x_test, y_train, y_test=train_test_split(x, y, random_state=0)
 
     lr=LinearRegression()
     lr.fit(x_train, y_train)
